@@ -1,0 +1,244 @@
+
+*{
+    font-family: "Montserrat", sans-serif;
+    color: aliceblue;
+    background-color: black;
+    margin: 0;
+    overflow: hidden;
+}
+.main{
+    display: flex;
+    height: 100vh;
+}
+.maincontent{
+    background-color: #211d1d;
+    height: 680px;
+    border-radius: 10px;
+    flex: 1;
+    overflow: auto;
+    margin: 0.5em;
+    padding: 10px;
+}
+.sidebar{
+    background-color: #000000;
+    border-radius: 10px;
+    width: 340px;
+    height: 100%;
+    margin: 0.5em;
+}
+.musicplayer{
+    background-color: #131111;
+    height: 72px;
+    width: 100%;
+    position: fixed;
+    bottom: 0%;
+}
+.nav_opt{
+    background-color: #211d1d;
+}
+i{
+    background-color: #211d1d;
+    line-height: 40px;
+}
+.nav{
+    border-radius: 0.5em;
+    background-color: #211d1d;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem 0.7rem 0rem 0.7rem;
+    justify-content: center;
+    height: 110px;
+}
+.nav a{
+    background-color: #211d1d;
+    opacity: 50%;
+    line-height: 40px;
+    text-decoration: none;
+    padding-left: 0.5rem;
+}
+.nav a:hover{
+    opacity: 100%;
+}
+.library img{
+    height: 1em;
+    padding-top: 10px ;
+    background-color: #211d1d;
+    margin-left: 0px;
+}
+.library{
+    background-color: #211d1d;
+    border-radius: 0.5em;
+    margin: 10px 0px;
+}
+.lib_opt{
+    background-color: #211d1d;
+    border-radius: 1em;
+    display: flex;
+    justify-content: space-around;
+    padding: 0px 0px;
+}
+.lib_opt a{
+    background-color: #211d1d;
+    opacity: 50%;
+    line-height: 40px;
+    text-decoration: none;
+    padding-right: 140px;
+}
+.lib_opt a:hover{
+    opacity: 100%;
+}
+.library i{
+    margin-top: 10px;
+    padding-right: 10p;
+}
+.box_1{
+    background-color:#262424;
+    height: 150px;
+    margin: 10px;
+    border-radius: 5px;
+    padding: 10px;
+}
+.box_2{
+    background-color:#262424;
+    height: 150px;
+    margin: 10px;
+    border-radius: 5px;
+    padding: 10px;
+}
+.line{
+    text-decoration:wavy;
+    background-color: #262424;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: 600;
+}
+.line_2{
+    background-color: #262424;
+    padding: 10px;
+    opacity: 0.9;
+    font-size: 16px;
+}
+.badge{
+    color: black;
+    background-color: azure;
+    border-radius: 20px;
+    margin: 10px;
+    width: 5rem;
+    height: 2rem;
+    border: none;
+    font-weight: 500;
+}
+.sticky{
+    background-color: #211d1d;
+    display: flex;
+    justify-content: space-between;
+    height: 60px;
+    width: 100%;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    margin-top: 0;
+    overflow: hidden;
+}
+.sticky_icon i {
+    background-color:#211d1d;
+    font-size:larger;
+    padding: 10px;
+    margin-top: 0;
+}
+.sticky_opt .button{
+    border-radius: 100px;
+    size: 20px;
+    height: 40px;
+    width: 150px;
+    padding: 6px;
+    background-color: #211d1d;
+    border: none;
+    font-weight: 500;
+    margin-top: 0;
+}
+.sticky_opt .button i{
+    margin-right: 8px;
+    background-color:   #211d1d;
+    margin-top: 0;
+}
+@media (max-width:1000px){
+    .hide{
+        display: none;
+    }  
+}
+.card{
+    background-color: #262424;
+    height: 250px;
+    width: 150px;
+    padding: 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, transform 0.9s ease;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+.card-img{
+    width: 100%;
+    background-color: #262424;
+    border-radius: 5px;
+}
+.card:hover{
+    .hide{
+        display: inline-block;
+    }
+    box-shadow: 10px 5px 50px rgba(246, 247, 246, 0.1);
+    transform: scale(0.9);
+}
+.card .hide{
+    height: 20px;
+    width: 20px;
+    background-color: transparent;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.9s ease;
+    display: none;
+    position:relative; top: 145px; left: 120px;
+}
+
+.card-container{
+    display: flex;
+    flex-wrap: wrap;
+    background-color:#211d1d;
+}
+.cards{
+    background-color: #211d1d;
+}
+.card p{
+    background-color: #262424; 
+}
+.card-title{
+    font-weight: 1000;
+}
+.card-info{
+    opacity: 0.50;
+}
+.footer{
+    height: 200px;
+    background-color: #211d1d;
+}
+.lin{
+    opacity: 0.4;
+    width: 100%;
+    height: 50px;
+    border-top: 1px solid white;
+    background-color: #211d1d;
+    margin-top: 100px;
+}
+.musicplayer{
+    display: flex;
+    justify-content: space-between;
+}
+.dv1{
+    display: flex;
+    justify-content: space-between;
+}
+.dv2{
+    height: 100%;
+    padding: 2px;
+    margin: 10px;
+    margin-bottom: 10px;
+}
