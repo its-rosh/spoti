@@ -235,10 +235,30 @@ i{
 .dv1{
     display: flex;
     justify-content: space-between;
+    width: 25%;
 }
-.dv2{
+.dv12{
     height: 100%;
     padding: 2px;
     margin: 10px;
     margin-bottom: 10px;
+}
+.dv2{
+    width: 50%;
+}
+.dv22{
+    padding-bottom: 5px;
+}
+.dv21 img{
+    height: 20px;
+    opacity: 0.7;
+    padding: 10px;
+    padding-top: ;
+}
+.dv21 img:hover{
+    opacity: 1;
+    cursor: pointer;
+}
+.dv3{
+    width: 25%;
 }
