@@ -237,11 +237,13 @@ i{
     justify-content: space-between;
     width: 25%;
 }
+.dv1 p{
+    padding: 10px;
+    opacity: 0.8;
+}
 .dv12{
-    height: 100%;
-    padding: 2px;
-    margin: 10px;
-    margin-bottom: 10px;
+    padding: 5px;
+    width: 80px;
 }
 .dv2{
     width: 50%;
@@ -249,6 +251,12 @@ i{
     flex-direction: column;
     justify-content:space-between;
     text-align: center;
+}
+.dv11{
+    height:30px;
+    width: 30px;
+    padding: 10px 70px 30px 0;
+    
 }
 .dv22{
     padding-bottom: 5px;
@@ -267,4 +275,31 @@ i{
 }
 .dv3{
     width: 25%;
+    display: flex;  
+    justify-content: space-between;
+}
+.dv31 img{
+    height: 20px;
+    width: 20px;
+    padding: 5px;
+    padding-top: 30px;
+    opacity: 0.7;
+}
+.dv31 img:hover{
+    opacity:1;
+}
+.bar{
+    appearance: none;
+    background-color: rgb(22, 124, 22);
+    border-radius: 100px;
+    cursor: pointer;
+    height: 5px;
+}
+
+.bar2{
+    appearance: none;
+    background-color: rgb(22, 124, 22);
+    border-radius: 100px;
+    height: 4px;
+    
 }
